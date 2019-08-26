@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import InputForm from './InputForm'
+import InputForm from "./InputForm";
 
+const App = () => {
+  return <InputForm />;
+};
 
-const App =  (props)=> {
-
-
- return <InputForm/>
-}
-
-export default App
+export default App;
